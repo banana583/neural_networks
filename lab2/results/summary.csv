@@ -1,0 +1,7 @@
+distribution,size,matrices_count,left_eigenvalue_index_1based,right_eigenvalue_index_1based,raw_mean_gap,normalized_mean,zero_fraction,ks_to_wigner
+normal,2,10000,1,2,3.54119346944,1,0,0.00537751180899
+normal,4,10000,2,3,2.35556564638,1,0,0.0128646883942
+normal,16,10000,8,9,1.1272141222,1,0,0.0152407126137
+rademacher,2,10000,1,2,3.47312727087,1,0.2361,0.411067519658
+rademacher,4,10000,2,3,2.52806436617,1,0.1407,0.1407
+rademacher,16,10000,8,9,1.16245948339,1,0,0.0107188532401
