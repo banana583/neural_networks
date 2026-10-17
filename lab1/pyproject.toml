@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jacobi-eigen-lab1"
+version = "1.0.0"
+description = "Method of Jacobi for eigenvalues and eigenvectors of symmetric matrices"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name = "Балданова Евгения"}]
+
+[project.scripts]
+jacobi-eigen = "jacobi_eigen.__main__:main"
+
+[tool.setuptools]
+packages = ["jacobi_eigen"]
